@@ -62,7 +62,7 @@ void initState() {
           });
         },
       child: FutureBuilder<List<Item>>(
-        future: _futureItems, 
+        future: _futureItems,  
         builder: (context, snapshot) {
           if (snapshot.hasData){
 //Show pie Chart and list view of items
